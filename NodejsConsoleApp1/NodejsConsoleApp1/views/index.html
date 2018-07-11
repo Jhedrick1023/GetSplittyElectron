@@ -1,0 +1,21 @@
+﻿<Doctype html>
+    <html>
+    <head>
+        <title>Address String Builder</title>
+        <script type="text/javascript" src="../Public/Javascripts/index.js"></script>
+        <script src="../public/javascripts/jquery.js"></script>
+    </head>
+    <body>
+        <h1>Input an address</h1>
+        <input id="enterAddress" type="text" placeholder="101 W Coates St, Moberly MO 65270" size="35" /><br />
+        <button type="submit" onclick="showObject()">Use Preset Address</button>
+        <button type="submit" onclick="setObject()">Change Address</button><br />
+        <output id="index" type="text">The Address is: </output>
+        <p>
+            <label id="streetAddress"></label><br />
+            <label id="city"></label><br />
+            <label id="state"></label><br />
+            <label id="zipCode"></label><br />
+        </p>
+    </body>
+</html>
